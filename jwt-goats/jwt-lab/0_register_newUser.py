@@ -12,15 +12,16 @@ def register(url, endpoint_newUser, endpoint_users):
     p = BeautifulSoup(r.content, "lxml")
     auth_token = p.find(attrs = {'name' : 'authenticity_token'})['value']
 
-    username = "bigb0ss"
+    username = "bigb0ss1"
+    password = "password"
 
     data = {
         'authenticity_token' : auth_token,
         'user[name]' : username,
         'user[email]' : "email@hello",
         'user[secret_fact]': "email@hello",
-        'user[password]': "password",
-        'user[password_confirmation]': "password",
+        'user[password]': password,
+        'user[password_confirmation]': password,
         'commit': "Create+my+account",
     }
 
