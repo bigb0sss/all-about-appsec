@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Challenge 01<title/>
+    <head/>
+    <body>
+        <h1>Challenge 01</h1>>
+        <script>
+            function onRecieve(message) {
+                document.write(message.data);
+            }
+            window.addEventListener('message', onReceive, true);
+        </script>
+    </body>
+<html/>
+
+<!--
+# Solution
+DOM XSS. "addEventListener" handler for message event is registered and writes the event's data in the DOM
+
+# Mitigation
+
+-->
