@@ -19,5 +19,6 @@
 DOM XSS. "addEventListener" handler for message event is registered and writes the event's data in the DOM
 
 # Mitigation
-
+Implement message.origin validation
+Encode/sanitize the message.data before document.write
 -->
