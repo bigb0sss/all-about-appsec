@@ -36,3 +36,11 @@
 | Name | Description | Category | Creater |
 | :--- | :--- | :--- | :--- |
 | [Subdomain Enumeration Guide](https://sidxparab.gitbook.io/subdomain-enumeration-guide/) | A-Z Subdomain Enumeration Guide | Guide/How-To | @sidxparab |
+
+</br>
+
+## Web Security Assessment Tools <a name="web_security_assessment_tools"></a>
+### Proxy <a name="web_tool_proxy"></a>
+| Name | Description | Creater | Guide |
+| :--- | :--- | :--- | :--- |
+| [Burp Suite](https://portswigger.net/burp) | | PortSwigger | <li>[BurpSuite-For-Pentester](https://github.com/Ignitetechnologies/BurpSuite-For-Pentester)</li> | 
