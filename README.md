@@ -16,7 +16,7 @@
 | :--- | :--- | :--- | :--- |
 | [OWAPS Cheat Sheet Series](https://cheatsheetseries.owasp.org/) | AppSec cheatsheet | Cheatsheet | <li>@Jim Manico</li><li>@Jakub Mackowski</li> |
 
-
+</br>
 
 ## Application Security Goats <a name="application_security_goats"></a>
 ### API Goats <a name="api_goats"></a>
