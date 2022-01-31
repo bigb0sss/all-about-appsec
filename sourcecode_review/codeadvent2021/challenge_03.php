@@ -29,6 +29,8 @@ AddType application/x-httpd-php .bigb0ss
 
 And upload a PHP file like reverseShell.bigb0ss to call the PHP code. 
 
+# Mitigations
+- Use whitelist approach to only allow necessary file extension(s).
 '''
 
 ?>
