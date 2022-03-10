@@ -1,12 +1,16 @@
-public class BackUpRunnerThread extends Thread {
+public class BackUpRunnerThread exetends Thread {
     public void run() {
         long ctr = 0;
         while (true) {
-            ProcessBuilder builder = new ProcessBuilder(
+            processBuilder builder = new ProcessBuilder(
                 "bash", "-c",
                 String.format("sudo tar -cf /var/backups/backup%d.tar *", ctr)
             );
-            builder.directory(new File("/opt/wabapp/"))
+            builder.directory(new File("/opt/webapp/"));
+            builder.start();
+            ctr =+ 1
+            // every 30min
+            Thread.sleep(1000 * 50 * 30);
         }
     }
 }
@@ -15,14 +19,14 @@ public class BackUpRunnerThread extends Thread {
 /*
 
 # Link
-https://twitter.com/SonarSource/status/1467524170695077889
+https://twitter.com/SonarSource/status/1467886551321432072
 
 # Issues
-1) `execl()` calls `modprobe` from the environment of the parent process.
-2) An attacker could make a malicious file called `modprobe` locating in the same dir with the above program, then it will execute the attacker's `modprobe` program instead of the legit one as root. 
+1) Potential RCE - One can make a filename called "-I touch shell" in /opt/webapp 
+    a) "-I" allows executing arbitrary commands
 
 # Mitigations
-1) Provide the absolute path for the `modprobe` binary. 
+1) Do not use '*' altogether to blindly archiving every file within the specified directory
 
 */
 
