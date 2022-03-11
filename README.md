@@ -16,6 +16,11 @@
 | :--- | :--- | :--- | :--- |
 | [OWAPS Cheat Sheet Series](https://cheatsheetseries.owasp.org/) | AppSec cheatsheet | Cheatsheet | <li>@Jim Manico</li><li>@Jakub Mackowski</li> |
 
+### Burp <a name="burp"></a>
+| Name | Description | Category | Creater |
+| :--- | :--- | :--- | :--- |
+| [Param Miner Doc](https://github.com/nikitastupin/param-miner-doc) | Burp extension Param Miner | Cheatsheet | @nikitastupin |
+
 </br>
 
 ## Application Security Goats <a name="application_security_goats"></a>
