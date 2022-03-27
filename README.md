@@ -2,7 +2,8 @@
 
 ## Table of Contents
 - [Cheatsheet](#cheatsheet)
-    - [OWAPS](#owaps)
+    - [AppSec](#appsec)
+    - [Burp](#burp)
 - [Application Security Goats](#application_security_goats)
     - [API Goats](#api_goats)
     - [JWT Goats](#jwt_goats)
@@ -11,10 +12,11 @@
     - [Guide/How-To](#web_recon_guide_how_to)
 
 ## Cheatsheet <a name="cheatsheet"></a>
-### OWAPS <a name="owaps"></a>
+### AppSec <a name="appsec"></a>
 | Name | Description | Category | Creater |
 | :--- | :--- | :--- | :--- |
-| [OWAPS Cheat Sheet Series](https://cheatsheetseries.owasp.org/) | AppSec cheatsheet | Cheatsheet | <li>@Jim Manico</li><li>@Jakub Mackowski</li> |
+| [OWAPS Cheat Sheet Series](https://cheatsheetseries.owasp.org/) | AppSec Cheatsheet | Cheatsheet | <li>@Jim Manico</li><li>@Jakub Mackowski</li> |
+| [Application Security Cheat Sheet](https://0xn3va.gitbook.io/cheat-sheets/) | AppSec Cheatsheet | Cheatsheet | <li>@0xn3va</li> |
 
 ### Burp <a name="burp"></a>
 | Name | Description | Category | Creater |
