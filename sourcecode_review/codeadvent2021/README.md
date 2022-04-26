@@ -9,3 +9,4 @@
 - [Challenge-06](https://github.com/bigb0sss/all-about-appsec/blob/main/sourcecode_review/codeadvent2021/challenge_06.java) (Java) - ProcessBuilder Code Execution
 - [Challenge-07](https://github.com/bigb0sss/all-about-appsec/blob/main/sourcecode_review/codeadvent2021/challenge_07.cs) (CSharp) - DNS Rebinding
 - [Challenge-08](https://github.com/bigb0sss/all-about-appsec/blob/main/sourcecode_review/codeadvent2021/challenge_08.cpp) (CPP) - BufferOverFlow
+- [Challenge-09](https://github.com/bigb0sss/all-about-appsec/blob/main/sourcecode_review/codeadvent2021/challenge_09.ts) (TypeScript) - SQLi
