@@ -7,3 +7,5 @@
 - [Challenge-04](https://github.com/bigb0sss/all-about-appsec/blob/main/sourcecode_review/codeadvent2021/challenge_04.php) (PHP) - No File Extension Vulnerability (<i>*Apache Specific</i>)
 - [Challenge-05](https://github.com/bigb0sss/all-about-appsec/blob/main/sourcecode_review/codeadvent2021/challenge_05.c) (C) - execl() executing a program with no absolute path 
 - [Challenge-06](https://github.com/bigb0sss/all-about-appsec/blob/main/sourcecode_review/codeadvent2021/challenge_06.java) (Java) - ProcessBuilder Code Execution
+- [Challenge-07](https://github.com/bigb0sss/all-about-appsec/blob/main/sourcecode_review/codeadvent2021/challenge_07.cs) (CSharp) - DNS Rebinding
+- [Challenge-08](https://github.com/bigb0sss/all-about-appsec/blob/main/sourcecode_review/codeadvent2021/challenge_08.cpp) (CPP) - BufferOverFlow
