@@ -31,6 +31,7 @@
 | :--- | :--- | :--- | :--- |
 | [rest-api-goat](https://github.com/optiv/rest-api-goat) | Project to learn about REST API testing | REST API | @stevedor | 
 | [generic-university](https://github.com/InsiderPhD/Generic-University) | Project to learn about REST API testing | REST API | @InsiderPhD | 
+| [VAmPI](https://github.com/erev0s/VAmPI) | API Security testing based on OWAPS Top 10 vulnerabilities for APIs | REST API | @erev0s |
 
 ### JWT Goats <a name="jwt_goats"></a>
 | Name | Description | Category | Creater |

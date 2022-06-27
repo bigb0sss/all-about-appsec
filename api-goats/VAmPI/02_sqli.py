@@ -1,7 +1,7 @@
 import requests
 
 def sqli(url):
-    username = "user1' AND 123=123'"
+    username = "user1' AND 123=123"
 
     r = requests.get(url + "/users/v1/" + username)
     print(r.text)
