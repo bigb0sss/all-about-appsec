@@ -1,6 +1,7 @@
 # All About Application Security (AAAS)
 
 ## Table of Contents
+- [AppSec Study Guide](#study_guide)
 - [Cheatsheet](#cheatsheet)
     - [AppSec](#appsec)
     - [Burp](#burp)
@@ -10,6 +11,11 @@
 - [Public Testing Websites](#public_website_testing)
 - [Web Recon](#web_recon)
     - [Guide/How-To](#web_recon_guide_how_to)
+
+## AppSec Study Guide <a name="study_guide"></a>
+| Name | Description | Category | Creater |
+| :--- | :--- | :--- | :--- |
+| [Shieldfy Security Wiki](https://shieldfy.io/security-wiki/) | Intro to various web vulns | StudyGuide | Shieldfy |
 
 ## Cheatsheet <a name="cheatsheet"></a>
 ### AppSec <a name="appsec"></a>
